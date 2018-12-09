@@ -159,7 +159,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cse554_final_project.cpp" />
-    <ClCompile Include="image_parsing.cpp" />
+    <ClCompile Include="image_parsing.cpp">
+      <DeploymentContent>false</DeploymentContent>
+    </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
